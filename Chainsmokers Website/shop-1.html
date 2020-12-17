@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+      <meta charset=:utf-8” />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="CSS/shop.css"> 
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+      
+      <title>The Chainsmokers</title>
+</head>
+
+
+
+<body>
+
+    <!-- Page Navigation -->
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand justify-content-center" href="index.html"><img class="logo-image" src="Assets/Logo/logo_inactive.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" >ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="discography.html">DISCOGRAPHY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="media.html">MEDIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tourdates.html">TOURDATES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   active" href="shop.html">SHOP</a>
+                  </li>
+              </ul>
+        </div>
+    </nav>
+    </div>
+
+
+
+    <!-- Page Nav -->
+    <section class="black">
+        <div class="container">
+            <h1 class="h1dark">Wear your favourite chainsmokers style.</h1>
+        </div>
+        </section>
+    
+        <section class="black">
+        <div class="container topnav">
+          <ul class="nav justify-content-center">
+          <div class="row">
+            <div class="col-sm-4 nav-border-dark navs" id="nav-div-all">
+              <li class="nav-item">
+                <a class="nav-link tab-link active" href="#">
+                  <img id="nav-img-all" class="icon-header-active icon-header" src="Assets/Icons/all-active.png" onclick="openShop(event, 'all')"></a>
+              </li>
+            </div>
+            <div class="col-sm-4 nav-border navs" id="nav-div-apparel">
+              <li class="nav-item">
+                <a class="nav-link tab-link" href="#">
+                  <img id="nav-img-apparel" class="icon-header-inactive icon-header" src="Assets/Icons/apparel-active.png" onclick="openShop(event, 'apparel')"></a>
+              </li>
+            </div>
+            <div class="col-sm-4 nav-border navs" id="nav-div-hats">
+                <li class="nav-item">
+                  <a class="nav-link tab-link" href="#">
+                    <img id="nav-img-hats" class="icon-header-inactive icon-header" src="Assets/Icons/hats-active.png" onclick="openShop(event, 'hats')"></a>
+                </li>
+              </div>
+          </div>
+        </ul>
+      </div>
+      </section>
+
+
+    <!-- Filters -->
+    <section class="white">
+      
+          <p>
+            <button type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn btn-light"><img class="icon-small" src="Assets/Icons/filters.png"><h4 class="body-black" style="margin-top: -3px;">Filters</h4></button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+      
+
+    </section>
+
+
+  <!-- Items grid -->
+
+
+  <!-- all items -->
+
+    <section>
+      <div class="container items" id="all"> 
+
+          <div class="row">
+              <div class="col-sm-4"> 
+                 <img class="square" src="Assets/Images/Shop/Apparel/2.jpg"> 
+              </div>
+              <div class="col-sm-4"> 
+                  <img class="square" src="Assets/Images/Shop/Apparel/3.png">
+              </div>
+              <div class="col-sm-4"> 
+                <img class="square" src="Assets/Images/Shop/Bags/bag-1.webp"> 
+              </div>
+          </div>
+              
+          <div class="row">
+            <div class="col-sm-4"> 
+                <img class="square" src="Assets/Images/Shop/Hats/hat-5.png">
+            </div>
+            <div class="col-sm-4"> 
+              <img class="square" src="Assets/Images/Shop/Apparel/1.png">
+            </div>
+            <div class="col-sm-4"> 
+                <img class="square" src="Assets/Images/Shop/Bags/bag-2.jpg"> 
+            </div>
+        </div>
+
+          <div class="row">
+              <div class="col-sm-4"> 
+                  <img class="square" src="Assets/Images/Shop/Apparel/4.png">
+              </div>
+              <div class="col-sm-4"> 
+                  <img class="square" src="Assets/Images/Shop/Apparel/5.png">
+              </div>
+              <div class="col-sm-4"> 
+                  <img class="square" src="Assets/Images/Shop/Apparel/6.png">
+              </div>
+          </div>      
+
+          <div class="row">
+              <div class="col-sm-4"> 
+                  <img class="square" src="Assets/Images/Shop/Hats/hat-2.png">
+              </div>
+              <div class="col-sm-4"> 
+                <img class="square" src="Assets/Images/Shop/Hats/hat-3.jpg">
+            </div>
+            <div class="col-sm-4"> 
+                <img class="square" src="Assets/Images/Shop/Hats/hat-4.png">
+            </div>
+          </div> 
+
+          <div class="row">
+              <div class="col-sm-4"> 
+                  <img class="square" src="Assets/Images/Shop/Hats/hat-1.png">
+              </div>
+
+      </div>
+  </section>
+  
+  
+<!-- apparel -->
+
+<section>
+  <div class="container items" id="apparel" style="display: none;"> 
+
+    <div class="row">
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Apparel/1.png">
+        </div>
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Apparel/2.jpg">
+        </div>
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Apparel/3.png">
+        </div>
+    </div>
+        
+    <div class="row">
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Apparel/4.png">
+        </div>
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Apparel/5.png">
+        </div>
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Apparel/6.png">
+        </div>
+      </div>
+    </div>
+  </section>    
+  
+
+
+<!-- hats -->
+ 
+<section>
+  <div class="container items" id="hats" style="display: none;"> 
+
+      <div class="row">
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Hats/hat-2.png">
+        </div>
+        <div class="col-sm-4"> 
+          <img class="square" src="Assets/Images/Shop/Hats/hat-3.jpg">
+      </div>
+      <div class="col-sm-4"> 
+          <img class="square" src="Assets/Images/Shop/Hats/hat-4.png">
+      </div>
+    </div> 
+
+    <div class="row">
+        <div class="col-sm-4"> 
+            <img class="square" src="Assets/Images/Shop/Hats/hat-5.png">
+        </div>
+    </div>
+
+  </div>
+</section> 
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/lightbox.js"></script> 
+    <script src="js/shop.js"></script> 
+  
+  </body>
+  </html>

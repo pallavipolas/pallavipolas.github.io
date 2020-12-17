@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+  }
+
+.color-black {
+    background-color: black;
+}
+
+/* -------- Top Navigation -------- */
+
+.navbar-brand {
+    margin-left: 330px;
+}
+
+
+.navbar-brand :hover{
+    opacity: 40%;
+}
+
+.navbar {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    position: sticky;
+    z-index:10; 
+}
+
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+  }
+
+.nav-item{
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.nav-link {
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #dadada;
+}
+
+.active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-link :hover {
+    color: #dadada;
+    opacity: 40%;
+}
+
+
+/* -------- Page Nav -------- */
+
+.topnav {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .topnav a {
+   
+    display: block;
+    text-align: center;
+    padding: 18px 168px;
+    padding-top: 0;
+    text-decoration: none;
+  }
+ 
+  
+  .nav-border {
+    border-bottom: #333333 solid 3px
+ }
+
+ .nav-border-dark{
+    border-bottom: #dadada solid 8px
+ }
+
+ .icon-header-active{
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 75px;
+    opacity: 100%;
+    cursor: pointer;
+    
+}
+
+.icon-header-inactive{
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 75px;
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.icon-header:hover {
+    opacity: 85%;
+}
+
+
+.icon-header:active {
+    opacity: 100%;
+}
+
+
+/* -------- paragraphs -------- */
+
+.h4-dark {
+    text-align: center;
+    max-width: 350px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.body-black {
+    text-align: left;
+    max-width: 350px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+
+
+.body-white {
+    float: left;
+    text-align: left;
+    max-width: 350px;
+    
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.white-nav{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.dark-track {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color:#333333;
+}
+
+.h1light {
+    margin-top: 0px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+}
+
+
+
+.h1dark {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+}
+
+
+/* -------- Sections -------- */
+
+.white-albums {
+    width: 100%;
+    padding-top: 50px;
+    background-color: white;
+}
+
+
+.black-media {
+    width: 100%;
+    text-align: center;
+    height: 130px;
+
+    padding-top: 25px; 
+}
+
+
+.photos-grid {
+    width: 100%;
+    height: 300px;
+    min-width: 100%;
+    padding-top: 150px;
+
+}
+
+.videos-grid {
+    width: 100%;
+    height: 300px;
+    min-width: 100%;
+
+}
+
+.black {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px; 
+}
+
+/* -------- Photos -------- */
+
+
+.photo-lg-grid {
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+
+}
+
+.photo-sm-grid  {
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+}
+
+.card-image-top {
+    cursor: pointer;
+}
+
+.card-image-top:hover {
+        position: absolute;
+        transform: scale(1.1);
+        transition: .5s ease;
+        backface-visibility: hidden;
+        display: block;
+        text-align: center;
+        opacity: 1;
+}

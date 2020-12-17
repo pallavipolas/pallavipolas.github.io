@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+      <meta charset=:utf-8” />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="CSS/media.css"> 
+      
+      <link rel="stylesheet" href="Assets/lightbox/dist/css/lightbox.css">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+      
+      <title>The Chainsmokers</title>
+</head>
+
+
+
+<body class="color-black">
+
+
+    <!-- Page Navigation -->
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand justify-content-center" href="index.html"><img class="logo-image" src="Assets/Logo/logo_inactive.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" >ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="discography.html">DISCOGRAPHY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="media.html">MEDIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tourdates.html">TOURDATES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="shop.html">SHOP</a>
+                  </li>
+              </ul>
+        </div>
+    </nav>
+    </div>
+    
+<!-- Page Nav -->
+    <section class="black">
+    <div class="container">
+        <h1 class="h1light">Explore our latest photos and videos gallery.</h1>
+    </div>
+    </section>
+
+    <section class="black-media">
+    <div class="container topnav" >
+      <ul class="nav justify-content-center">
+      <div class="row">
+        <div class="col-sm-6 nav-border-dark" id="nav-div-photos">
+          <li class="nav-item animate__animated animate__fadeInUp">
+            <a class="nav-link active"><img id="icon-photos" class="icon-header-active " src="Assets/Icons/Photos.png" onclick="openGrid(event, 'photos')"></a>
+          </li>
+        </div>
+        <div class="col-sm-6 nav-border" id="nav-div-videos">
+          <li class="nav-item  animate__animated animate__fadeInUp">
+            <a class="nav-link"><img id="icon-videos" class="icon-header-inactive" src="Assets/Icons/Videos.png" onclick="openGrid(event, 'videos')"></a>
+          </li>
+        </div>
+      </div>
+    </ul>
+  </div>
+  </section>
+
+
+
+
+<!-- Photo grid -->
+
+  <section class="photos-grid">
+    <div class="container" id="photos">
+
+      <div class="row">
+        
+        <div class="col-lg-6 photo-lg-grid">
+          <div>
+            <a href="Assets/Images/Media/1.jpg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/1.jpg" alt="Chainsmokers"/></a>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 photo-sm-grid ">
+          <div> 
+            <!-- lightbox -->
+            <a href="Assets/Images/Media/2.jpg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/2.jpg" alt="Chainsmokers"/></a>
+              
+            <hr>
+            <a href="Assets/Images/Media/3.jpeg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/3.jpeg" alt="Chainsmokers"/></a>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 photo-sm photo-sm-grid ">
+          <div>
+            <a href="Assets/Images/Media/4.jpeg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/4.jpeg" alt="Chainsmokers"/></a>
+            <hr>
+            <a href="Assets/Images/Media/5.jpg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/5.jpg" alt="Chainsmokers"/></a>
+          </div>
+        </div>
+     
+      </div>
+      
+
+      <div class="row" style="margin-top: 75px; margin-bottom: 200px;">
+
+        <div class="col-lg-3 photo-sm-grid">
+          <div>
+            <a href="Assets/Images/Media/7.jpg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/7.jpg" alt="Chainsmokers"/></a>
+            <hr>
+            <a href="Assets/Images/Media/8.jpg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/8.jpg" alt="Chainsmokers"/></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 photo-sm photo-sm-grid ">
+          <div>
+            <a href="Assets/Images/Media/9.jpeg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+            <img class="card-img-top" src="Assets/Images/Media/Thumbs/9.jpeg" alt="Chainsmokers"/></a>
+            <hr>
+            <a href="Assets/Images/Media/6.jpg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+              <img class="card-img-top" src="Assets/Images/Media/Thumbs/6.jpg" alt="Chainsmokers"/></a>
+            <div>
+           
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 photo-lg-grid">
+          <div>
+            <a href="Assets/Images/Media/10.jpg" data-lightbox="Chainsmokers" data-title="Chainsmokers - Click next to move forward.">
+              <img class="card-img-top" src="Assets/Images/Media/Thumbs/10.jpg" alt="Chainsmokers"/></a>
+          </div>
+        </div>
+
+      </div>
+    
+  </section>
+
+
+
+
+<!-- Video grid -->
+
+<div style="margin-top: -150px; visibility: hidden;">
+<section class="videos-grid">
+  <div class="container" style="display: none;" id="videos">
+    <div class="row" style="margin-bottom: 300px;">
+
+      <div class="col-lg-6 photo-lg-grid">
+        <div>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/_F2KOULJJtk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br><br>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/zns830Yl1b0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+  
+      <div class="col-lg-6 photo-lg-grid">
+        <div>
+          <iframe width="99%" height="315" src="https://www.youtube.com/embed/eACohWVwTOc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br><br>
+          <iframe width="99%" height="315" src="https://www.youtube.com/embed/4u6bWs-ZG0o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</section>
+
+
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="Assets/lightbox/dist/js/lightbox.js"></script>
+  <script src="JS/media.js"></script>
+
+</body>
+
+</html>
+
+</div>
+
+
+
+
+
+
+
+    

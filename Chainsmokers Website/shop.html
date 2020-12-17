@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+      <meta charset=:utf-8” />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="CSS/shop.css"> 
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+      
+      <title>The Chainsmokers</title>
+</head>
+
+
+
+<body>
+
+    <!-- Page Navigation -->
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand justify-content-center" href="index.html"><img class="logo-image" src="Assets/Logo/logo_inactive.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" >ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="discography.html">DISCOGRAPHY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="media.html">MEDIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tourdates.html">TOURDATES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link   active" href="shop.html">SHOP</a>
+                  </li>
+              </ul>
+        </div>
+    </nav>
+    </div>
+
+<div class="container">
+  <div class="h1dark">Wear your favourite Chainsmokers style.</div>
+</div>
+
+    <!-- Page Nav -->
+
+    <div>
+        <section class="black">
+        <div class="container topnav">
+          <ul class="nav justify-content-center">
+          <div class="row">
+            <div class="col-sm-4 nav-border-dark navs" id="nav-all">
+              <li class="nav-item">
+                <a class="nav-link tab-link active" href="#">
+                  <button class="btn animate__animated animate__fadeInUp" id="all"><img class="icon-header-active" src="Assets/Icons/all-active.png" 
+                    onclick="openShop(event, 'all')"></a></button>
+              </li>
+            </div>
+            <div class="col-sm-4 nav-border navs" id="nav-apparel">
+              <li class="nav-item">
+                <a class="nav-link tab-link" href="#">
+                  <button class="btn animate__animated animate__fadeInUp" id="apparel"><img class="icon-header-inactive" src="Assets/Icons/apparel-active.png" 
+                    onclick="openShop(event, 'apparel')"></a></button>
+              </li>
+            </div>
+            <div class="col-sm-4 nav-border navs" id="nav-hats">
+                <li class="nav-item">
+                  <a class="nav-link tab-link" href="#">
+                    <button class="btn animate__animated animate__fadeInUp" id="hats"><img class="icon-header-inactive" src="Assets/Icons/hats-active.png" 
+                      onclick="openShop(event, 'hats')"></a></button>
+                </li>
+              </div>
+          </div>
+        </ul>
+      </div>
+      </section>
+    </div>
+
+<br><br>
+
+<!-- Items grid -->
+
+<div id="shop">
+  
+<!-- bags -->
+<div class="bags">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Bags/bag-1.webp" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Bags/bag-2.jpg" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Accessories/accessories-1.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- apparel -->
+<div class="apparel">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Apparel/1.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Apparel/2.jpg" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Apparel/3.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Apparel/4.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Apparel/5.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Apparel/6.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- hats -->
+ <div class="hats">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Hats/hat-1.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Hats/hat-2.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Hats/hat-3.jpg" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Hats/hat-5.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Assets/Images/Shop/Hats/hat-4.png" class="card-img-top square" alt="...">
+          <div class="middle">
+            <div class="text">Out of Stock</div>
+          </div>
+        </div>
+      </div>   
+    </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/lightbox.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/shop.js"></script> 
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+  
+  </body>
+  </html>

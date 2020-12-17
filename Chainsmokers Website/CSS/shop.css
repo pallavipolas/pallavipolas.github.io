@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+/* -------- Top Navigation -------- */
+
+.navbar-brand {
+    margin-left: 330px;
+}
+
+
+.navbar-brand :hover{
+    opacity: 40%;
+}
+
+.navbar {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    position: sticky;
+    z-index:10; 
+}
+
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+  }
+
+.nav-item{
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.nav-link {
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.active {
+    color: #333333;
+    font-weight: bold;
+    opacity: 100%;
+    align-items: center;
+}
+
+.nav-link :hover {
+    color: #333333;
+    opacity: 40%;
+}
+
+
+
+
+/* -------- Page Nav -------- */
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+   
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 10px 75px;
+    padding-top: 0;
+    text-decoration: none;
+    min-width: 50px;
+  }
+ 
+  .nav-border {
+    text-align: center;
+    align-items: center;
+    border-bottom: #dadada solid 3px
+ }
+
+ .nav-border-dark{
+    
+    align-items: center;
+    border-bottom: #333333 solid 8px
+    
+ }
+
+
+/* -------- paragraphs -------- */
+
+.h4-dark {
+    text-align: center;
+    max-width: 350px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.body-black {
+    text-align: left;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+
+
+.white-nav{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.dark-track {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color:#333333;
+}
+
+.h1light {
+
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+}
+
+
+
+.h1dark {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    text-shadow: 0 35px 20px rgb(34, 34, 34);
+}
+
+/* -------- sections -------- */
+
+.white {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 200px;
+    height: 75px;  
+    background-color: white;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* -------- images -------- */
+
+.heroimage {
+    width: 100%; 
+    height: 5%;
+    overflow: hidden;
+
+}
+
+
+
+
+
+/* -------- buttons -------- */
+
+.btn-light{
+    float: right;
+    width: 110px;
+    height: 40px;
+    background-color: #f0f0f0;
+}
+
+
+.badge-primary {
+    background-color: #4d4fd6;
+}
+
+
+/* -------- icons -------- */
+
+.icon-header:hover {
+    opacity: 85%;
+}
+
+
+.icon-header:active {
+    opacity: 100%;
+}
+
+.icon-small {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    margin-top: -1px;  
+}
+
+.icon-header-active{
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 75px;
+    opacity: 100%;
+}
+
+.icon-header-inactive{
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 75px;
+    opacity: 40%;
+}
+
+/* -------- images -------- */
+
+.card {
+    border: none;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 25px;
+    align-items: center;
+    
+}
+
+
+.square{
+    border: none;
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 150px;
+    min-height: 150px;
+    
+}
+
+
+.square:hover {
+    position: absolute;
+    transform: scale(1.1);
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+    text-align: center;
+    opacity: 1;
+}
+
+
+.overlay {
+   
+    transition: .5s ease;
+    background-color: #008CBA;
+    text-align: center;
+  }
+
+.middle:hover {
+    opacity: 1;
+}
+
+  .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+  .text {
+    background-color: #000000;
+    color: white;
+    padding: 12px 12px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+
+ /* box-shadow:  0 4px 8px 0 rgba(65, 65, 65, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+
+ .card {
+    position: relative;
+    display: inline-block;
+}  
+
+
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.card:hover .img-top {
+    display: inline;
+}    */
